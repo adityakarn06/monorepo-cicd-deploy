@@ -19,9 +19,8 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: ./docker/Dockerfile.frontend
+          file: ./docker/Dockerfile.fe
           build-args:
-            - DATABASE_URL=${{ secrets.DATABASE_URL }}
+            DATABASE_URL=${{ secrets.DATABASE_URL }}
           push: true
           tags: 100xdevs/todo-app-websocket:${{ github.sha }}
-      ## Step to deploy this to a VM

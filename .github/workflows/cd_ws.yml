@@ -21,4 +21,4 @@ jobs:
           context: .
           file: ./docker/Dockerfile.ws
           push: true
-          tags: 100xdevs/todo-app-websocket:${{ github.sha }}
+          tags: adityakarn06/test-app-websocket:${{ github.sha }}

@@ -23,4 +23,4 @@ jobs:
           build-args:
             DATABASE_URL=${{ secrets.DATABASE_URL }}
           push: true
-          tags: 100xdevs/todo-app-websocket:${{ github.sha }}
+          tags: adityakarn06/test-app-frontend:${{ github.sha }}

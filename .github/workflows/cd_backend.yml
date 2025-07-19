@@ -22,4 +22,4 @@ jobs:
           context: .
           file: ./docker/Dockerfile.be
           push: true
-          tags: 100xdevs/user-app-backend:${{ github.sha }}
+          tags: adityakarn06/test-app-backend:${{ github.sha }}
